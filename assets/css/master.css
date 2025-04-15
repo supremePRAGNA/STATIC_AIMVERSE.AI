@@ -128,7 +128,7 @@ a, a:hover, a *{-o-transition: .3s;-ms-transition: .3s;-moz-transition: .3s;-web
 *, :after, :before {box-sizing: border-box;}
 
 html, body{position: relative;height: 100%;}
-body {color: #888;background: #fafafa;font-size:14px;font-family: 'Open Sans', sans-serif;font-weight: 400;}
+body {color: #888;background: #fafafa;overflow-x: hidden; font-size:14px;font-family: 'Open Sans', sans-serif;font-weight: 400;}
 iframe {border: 0;}
 video {background-size: cover;display: table-cell;vertical-align: middle;width: 100%;}
 .html5-video {background-color: #000; height: auto; left: 50%; min-height: 100%; min-width: 100%; position: absolute; top: 50%; -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%);  width: auto; z-index: -3; }
@@ -1478,8 +1478,102 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
 .pricing-table-featured {margin: 5px 0;}
 .pricing-table-featured .pricicng-feature {min-height: 180px;}
 .pricing-box-bg .list-style-02 li:before, .pricing-box-bg-featured .list-style-02 li:before{color:#fff;}
+ 
 
+/* 2. Equalize pricing box height */
+.pricing-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  min-height: 480px; /* set a base height for all cards */
+}
+ 
+.pricing-box ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
 
+.pricing-box ul li {
+  margin-bottom: 10px;
+}
+
+.pricing-box-bottom {
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .pricing-box {
+    margin-bottom: 30px;
+  }
+}
+
+.plan-name h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .plan-name h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .plan-name h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Ensure Swiper doesn't overflow the container */
+.swiper-container {
+  overflow: hidden;
+  width: 100%;
+}
+/* Swiper slide should stretch to equal height */
+.swiper-wrapper {
+  display: flex;
+  align-items: stretch; 
+}
+
+/* 1. Make Swiper slides flex containers */
+.swiper-slide {
+  display: flex !important;
+  align-items: stretch;
+}
+
+.swiper-button-prev,
+  .swiper-button-next {
+    color: #000; /* or your desired color */
+  }
+
+  .swiper-pagination-bullet {
+    background: #333;
+    opacity: 0.5;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #000 !important;
+    opacity: 1;
+  }
+
+/* Responsive typography and layout fixes */
+@media (max-width: 992px) {
+  .plan-name h3 {
+    font-size: 18px;
+    min-height: 42px;
+  }
+}  
 /* Teams */
 
 /* Team Style 01 */
