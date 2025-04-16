@@ -26,15 +26,22 @@
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
 <style>
-  @media (max-width: 992px) { 
+  @media only screen and (max-width: 992px) { 
   .game {
     padding: 0 !important;
     margin-top: 25px !important;
-  }
-}@media (max-width: 768px) {
+  } 
+}
+  @media only screen and (max-width: 320px) { 
+  .game {
+    padding: 0 !important;
+    margin-top: 20px !important;
+  } 
+}
+@media only screen and (max-width: 768px) {
   .tp-caption .game {
     font-size: 25px !important;
-    line-height: 140px !important;
+    line-height: 130px !important;
   }
 
   .tp-caption span {

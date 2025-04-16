@@ -1527,11 +1527,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
 @media (max-width: 768px) {
   .plan-name h3 {
     font-size: 1.25rem;
-  }
-  .game {
-    padding: 0 !important;
-    margin-top: -20px !important;
-  }
+  } 
 }
 
 
