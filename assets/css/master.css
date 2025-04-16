@@ -1487,11 +1487,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
   justify-content: space-between;
   height: 100%;
   padding: 30px;
+  width: 100%;
+  max-width: 300px; /* Uniform card width */
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  min-height: 480px; /* set a base height for all cards */
+  min-height: 480px; /* set a base height for all cards */ 
 }
  
 .pricing-box ul {
@@ -1500,7 +1502,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
   margin-bottom: 20px;
   color: #fff; 
 }
+/* Make sure background image fills card correctly */
+.pricing-box-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .swiper-slide {
+    flex: 0 0 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-slide {
+    flex: 0 0 100%;
+  }
+}
 .pricing-box ul li {
   margin-bottom: 10px;
 }
@@ -1538,9 +1558,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
 } 
  
 /* Ensure Swiper doesn't overflow the container */
-.swiper-container {
-  overflow: hidden;
-  width: 100%;
+.swiper-container { 
+  width: 100%;padding: 20px 0;
 }
 /* Swiper slide should stretch to equal height */
 .swiper-wrapper {
@@ -1551,7 +1570,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
 /* 1. Make Swiper slides flex containers */
 .swiper-slide {
   display: flex !important;
+  justify-content: center;
   align-items: stretch;
+  height: auto; 
 }
 
 .swiper-button-prev,
