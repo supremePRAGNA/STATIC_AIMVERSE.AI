@@ -1526,6 +1526,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
 @media (max-width: 768px) {
   .plan-name h3 {
     font-size: 1.25rem;
+  }.game {
+    padding: 0 !important;
+    margin-top: -15px !important;
   }
 }
 
@@ -1533,8 +1536,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
   .plan-name h3 {
     font-size: 1.1rem;
   }
-}
-
+} 
+ 
 /* Ensure Swiper doesn't overflow the container */
 .swiper-container {
   overflow: hidden;
