@@ -1449,7 +1449,7 @@ img.mfp-img{padding:40px 0px 0;}
 box-shadow: 0 0 30px rgba(0, 0, 0, .15);border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;}
 .pricing-box-bg:hover{-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .30);box-shadow: 0 0 30px rgba(0, 0, 0, .30);}
 .pricing-box .plan-name {margin-bottom: 30px;}
-.pricing-box .plan-name h3{font-size: 30px;margin: 0;font-weight: 800;}
+.pricing-box .plan-name h3{font-size: 30px;margin: 0;font-weight: 800; color: #fff; }
 .pricing-box .value {padding: 30px 0;position: relative;}
 .pricing-box .value h3 {display: inline-block;padding-right: 15px;font-size: 60px;font-weight: 800;position: relative;margin-top: 0;margin-bottom: 0;}
 .pricing-box .value h3 span {font-size: 14px;position: absolute;top: 5px;right: 0;}
@@ -1498,6 +1498,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
   list-style-type: none;
   padding-left: 0;
   margin-bottom: 20px;
+  color: #fff; 
 }
 
 .pricing-box ul li {
@@ -1529,7 +1530,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
   }
   .game {
     padding: 0 !important;
-    margin-top: -15px !important;
+    margin-top: -20px !important;
   }
 }
 
