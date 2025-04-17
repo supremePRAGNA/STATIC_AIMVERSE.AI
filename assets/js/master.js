@@ -1,5 +1,4 @@
-	/* ===== LOADER OVERLAY ===== */
-
+	/* ===== LOADER OVERLAY ===== */  
 	 jQuery(function ($) {
 	'use strict';
 
