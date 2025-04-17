@@ -4,27 +4,73 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- <meta http-equiv="Cache-control" content="no-cache">  -->
 <title>Aimverse.ai</title>
 <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-<!-- Bootstrap CSS (add in head if not present)-->
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> 
-
-<!-- Core Style Sheets -->
-<link rel="stylesheet" href="assets/css/master.css">
-<!-- Responsive Style Sheets -->
-<link rel="stylesheet" href="assets/css/responsive.css">
 <!-- Revolution Style Sheets -->
 <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
 <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
 <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+<!-- Bootstrap CSS (add in head if not present)-->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> 
+<!-- Core Style Sheets -->
+<link rel="stylesheet" href="assets/css/master.css">
+
+<!-- Responsive Style Sheets -->
+<link rel="stylesheet" href="assets/css/responsive.css">
  
 <!-- Swiper CSS -->
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
+<style>
+  @media only screen and (max-width: 992px) { 
+  .game {
+    padding: 0 !important;
+    margin-top: 25px !important;
+  } 
+}
+  @media only screen and (max-width: 320px) { 
+  .game {
+    padding: 0 !important;
+    margin-top: 20px !important;
+  } 
+}
+@media only screen and (max-width: 768px) {
+  .tp-caption .game {
+    font-size: 25px !important;
+    line-height: 130px !important;
+  }
 
+  .tp-caption span {
+    font-size: 10px !important;
+    line-height: 12px !important;
+
+  }
+
+  .rev-btn {
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #slide-10-layer-6 {
+    font-size: 36px !important;
+    line-height: 1.2 !important;
+  }
+
+  #slide-10-layer-6 .game {
+    padding: 0 10px !important;
+  }
+
+  #slide-10-layer-6.tp-caption {
+    data-voffset: -30 !important;
+  }
+}
+
+</style>
 </head>
 <body>
 
@@ -104,82 +150,39 @@
 					style="z-index: 5;"><img src="assets/images/slides/home-bg-9.jpg" alt="" data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']" data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']" width="1920" height="1080" data-no-retina> </div>
 
 				<!-- LAYER NR. 2 -->
-				<div class="tp-caption   tp-resizeme"
-					 id="slide-10-layer-6"
-					 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-					 data-y="['middle','middle','middle','middle']" data-voffset="['-70','-100','-100','-100']"
-           data-fontsize="['80','70','50','45']"
-           data-lineheight="['80','70','50','45']"
-					data-width="none"
-					data-height="none"
-					data-whitespace="nowrap"
-
-					data-type="text"
-					data-responsive_offset="on"
-					data-wrapper_class="tp-nopointer"
-
-					data-frames='[{"delay":500,"split":"chars","splitdelay":0.1,"speed":300,"frame":"0","from":"y:[-100%];sX:1;sY:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;fb:0;","ease":"Power3.easeInOut"}]'
-					data-textAlign="['inherit','inherit','inherit','inherit']"
-					data-paddingtop="[0,0,0,0]"
-					data-paddingright="[20,20,20,20]"
-					data-paddingbottom="[0,0,0,0]"
-					data-paddingleft="[20,20,20,20]"
-          data-blendmode="exclusion"
-
-					style="z-index: 6; white-space: nowrap;font-weight: 800; color: rgba(255,255,255,0.85);font-family: 'Raleway', sans-serif;text-transform:uppercase;">Gamify Your Learning</div>
+				<div class="tp-caption tp-resizeme"
+            id="slide-10-layer-6"
+            data-x="center" data-y="middle" data-voffset="-70"
+            data-frames='[{"delay":500,"speed":300,"frame":"0","from":"y:[-100%];opacity:0;","to":"o:1;","ease":"Power3.easeInOut"}]'
+            style="z-index:6; font-size:80px; font-weight:800; color:rgba(8, 8, 8, 0.85); font-family:'Raleway', sans-serif; text-transform:uppercase; text-align:center;">
+            <div class="game">Gamify Your Learning</div>
+          </div>
 
 				<!-- LAYER NR. 3 -->
-				<div class="tp-caption   tp-resizeme"
-					 id="slide-10-layer-8"
-					 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-					 data-y="['middle','middle','middle','middle']" data-voffset="['0','-30','-20','-20']"
-					data-width="['none','none','361','330']"
-					data-height="none"
-					data-whitespace="['nowrap','nowrap','normal','normal']"
-
-					data-type="text"
-					data-responsive_offset="on"
-					data-wrapper_class="tp-nopointer"
-
-					data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"y:-20px;sX:1;sY:1;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":600,"frame":"999","to":"auto:auto;fb:0;","ease":"Power3.easeInOut"}]'
-					data-textAlign="['inherit','inherit','center','center']"
-					data-paddingtop="[0,0,0,0]"
-					data-paddingright="[0,0,0,0]"
-					data-paddingbottom="[0,0,0,0]"
-					data-paddingleft="[0,0,0,0]"
-          data-blendmode="exclusion"
-
-					style="z-index: 7; white-space: nowrap; font-size: 17px; line-height: 25px; font-weight: 400; color: rgba(255,255,255,0.85);font-family: 'Raleway', sans-serif;letter-spacing:10px;"><span class="text-uppercase">Play interactive, real-world skill-based games. <br> Learn faster. Win rewards. Level up your career.</span> </div>
-
+				<!-- SUBTEXT -->
+        <div class="tp-caption tp-resizeme"
+        id="slide-10-layer-8"
+        data-x="center" data-y="middle" data-voffset="10"
+        data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"y:-20px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"}]'
+        style="z-index:7; font-size:27px; line-height:25px; font-weight:400; color:rgba(8, 8, 8, 0.85); font-family:'Raleway', sans-serif; letter-spacing:2px; text-align:center;">
+        <span class="text-uppercase">Play interactive, real-world skill-based games.<br>Learn faster. Win rewards. Level up your career.</span>
+      </div>
 				<!-- LAYER NR. 4 -->
-				<a class="tp-caption rev-btn  tp-resizeme" href="#." target="_blank" id="slide-10-layer-10"
-					 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-					 data-y="['middle','middle','middle','middle']" data-voffset="['70','40','60','80']"
-					data-width="none"
-					data-height="none"
-					data-whitespace="nowrap"
-
-					data-type="button"
-					data-actions=''
-					data-responsive_offset="on"
-
-					data-frames='[{"delay":1000,"speed":1000,"frame":"0","from":"y:-20px;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":600,"frame":"999","to":"auto:auto;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgba(255,255,255,1);bg:rgba(45,48,50,1);bs:solid;bw:0 0 0 0;"}]'
-					data-textAlign="['inherit','inherit','inherit','inherit']"
-					data-paddingtop="[0,0,0,0]"
-					data-paddingright="[35,35,35,35]"
-					data-paddingbottom="[0,0,0,0]"
-					data-paddingleft="[35,35,35,35]"
-
-					style="z-index: 8; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 800; color: rgba(255,255,255,1);font-family: 'Raleway', sans-serif;background-color:#1ca7ec;border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">Start Your Mission</a>
-			</li>
+				<a class="tp-caption rev-btn tp-resizeme"
+            href="#." target="_blank"
+            data-x="center" data-y="middle" data-voffset="80"
+            data-frames='[{"delay":1000,"speed":1000,"frame":"0","from":"y:-20px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"}]'
+            style="z-index:8; font-size:15px; font-weight:800; line-height:30px; color:#fff; font-family:'Raleway', sans-serif; background-color:#1ca7ec; padding:0 35px; text-decoration:none; border:none; border-radius:5px;">
+            Start Your Mission
+          </a></li>
 			<!-- SLIDE  -->
-			<li data-index="rs-11" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeOut" data-easeout="Power4.easeOut" data-masterspeed="default"  data-thumb="http://works.themepunch.com/revolution_5_3/wp-content/"  data-rotate="0"  data-saveperformance="off"  data-title="Example Two" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-				<!-- MAIN IMAGE -->
-				<img src="assets/images/transparent.png" data-bgcolor='#ffffff' style='background:#ffffff' alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
-				<!-- LAYERS -->
+			<!-- <li data-index="rs-11" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeOut" data-easeout="Power4.easeOut" data-masterspeed="default"  data-thumb="http://works.themepunch.com/revolution_5_3/wp-content/"  data-rotate="0"  data-saveperformance="off"  data-title="Example Two" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+				 --><!-- MAIN IMAGE -->
+				<!-- <img src="assets/images/transparent.png" data-bgcolor='#ffffff' style='background:#ffffff' alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+				 --><!-- LAYERS -->
 
 				<!-- LAYER NR. 5 -->
-				<div class="tp-caption  "
+				<!-- <div class="tp-caption  "
 					 id="slide-11-layer-9"
 					 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
 					 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
@@ -202,33 +205,46 @@
 
 					style="z-index: 5;"><img src="assets/images/slides/home-bg-10.jpg" alt="" data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']" data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']" width="1920" height="1080" data-no-retina> </div>
 
-				<!-- LAYER NR. 6 -->
-				<div class="tp-caption   tp-resizeme"
+				 --><!-- LAYER NR. 6 -->
+				<!-- <div class="tp-caption   tp-resizeme"
 					 id="slide-11-layer-10"
-					 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-					 data-y="['middle','middle','middle','middle']" data-voffset="['-70','-100','-100','-100']"
-           data-fontsize="['80','70','50','45']"
-           data-lineheight="['80','70','50','45']"
-					data-width="none"
-					data-height="none"
-					data-whitespace="nowrap"
-
-					data-type="text"
-					data-responsive_offset="on"
-					data-wrapper_class="tp-nopointer"
-
-					data-frames='[{"delay":500,"split":"chars","splitdelay":0.1,"speed":300,"frame":"0","from":"y:[-100%];sX:1;sY:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;fb:0;","ease":"Power3.easeInOut"}]'
-					data-textAlign="['inherit','inherit','inherit','inherit']"
-					data-paddingtop="[0,0,0,0]"
-					data-paddingright="[20,20,20,20]"
-					data-paddingbottom="[0,0,0,0]"
-					data-paddingleft="[20,20,20,20]"
-					data-blendmode="exclusion"
-
-					style="z-index: 6; white-space: nowrap;font-weight: 800; color: rgba(255,255,255,0.85);font-family: 'Raleway', sans-serif;text-transform:uppercase;">Video Background </div>
-
-				<!-- LAYER NR. 7 -->
-				<div class="tp-caption tp-resizeme" id="slide-11-layer-11"
+					 data-x="['center','center','center','center']"
+     data-hoffset="['0','0','0','0']"
+     data-y="['middle','middle','middle','middle']"
+     data-voffset="['-70','-100','-100','-100']"
+     data-fontsize="['80','70','50','45']"
+     data-lineheight="['80','70','50','45']"
+     data-width="['auto','auto','360','320']"
+     data-height="none"
+     data-whitespace="['nowrap','nowrap','normal','normal']"
+     data-type="text"
+     data-responsive_offset="on"
+     data-wrapper_class="tp-nopointer"
+     data-frames='[{
+       "delay": 500,
+       "speed": 300,
+       "frame": "0",
+       "from": "y:[-100%];sX:1;sY:2;opacity:0;fb:10px;",
+       "to": "o:1;fb:0;",
+       "ease": "Power3.easeInOut"
+     }, {
+       "delay": "wait",
+       "speed": 300,
+       "frame": "999",
+       "to": "auto:auto;fb:0;",
+       "ease": "Power3.easeInOut"
+     }]'
+     data-textAlign="['center','center','center','center']"
+     data-paddingtop="[0,0,0,0]"
+     data-paddingright="[20,20,20,20]"
+     data-paddingbottom="[20,20,30,40]"
+     data-paddingleft="[20,20,20,20]"
+     data-blendmode="exclusion"
+     style="z-index: 6; max-width: 90%; font-weight: 800;  color: rgba(255,255,255,0.85); font-family: 'Raleway', sans-serif; text-transform: uppercase;">
+     <div class="game">Gamify Your Learning</div> </div>
+ -->
+				<!-- LAYER NR. 7 "split":"chars",-->
+<!-- 				<div class="tp-caption tp-resizeme" id="slide-11-layer-11"
 					 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
 					 data-y="['middle','middle','middle','middle']" data-voffset="['1','-30','-20','-20']"
 					data-width="['none','none','361','330']"
@@ -247,10 +263,10 @@
 					data-paddingleft="[0,0,0,0]"
 					data-blendmode="exclusion"
 
-					style="z-index: 7; white-space: nowrap; font-size: 17px; line-height: 25px; font-weight: 400; color: rgba(255,255,255,0.85);font-family: 'Raleway', sans-serif;letter-spacing:10px;"><span class="text-uppercase">Creative Homepage Variations</span></div>
+					style="z-index: 7; white-space: nowrap; font-size: 17px; line-height: 25px; font-weight: 400; color: rgba(255,255,255,0.85);font-family: 'Raleway', sans-serif;letter-spacing:10px;"><span class="text-uppercase">Play interactive, real-world skill-based games. <br> Learn faster. Win rewards. Level up your career.</span></div>
 
-				<!-- LAYER NR. 8 -->
-				<a class="tp-caption rev-btn  tp-resizeme" href="#." target="_blank" id="slide-11-layer-12"
+ -->				<!-- LAYER NR. 8 -->
+<!-- 				<a class="tp-caption rev-btn  tp-resizeme" href="#." target="_blank" id="slide-11-layer-12"
 					 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
 					 data-y="['middle','middle','middle','middle']" data-voffset="['70','40','60','80']"
 					data-width="none"
@@ -269,9 +285,9 @@
 					data-paddingleft="[35,35,35,35]"
 
 
-					style="z-index: 8; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 700; color: rgba(0,0,0,1);font-family: 'Raleway', sans-serif;background-color:#1ca7ec;border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">PURCHASE NOW</a>
+					style="z-index: 8; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 700; color: rgba(0,0,0,1);font-family: 'Raleway', sans-serif;background-color:#1ca7ec;border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">Start Your Mission</a>
 			</li>
-			<!-- SLIDE  -->
+ -->			<!-- SLIDE  -->
 
 		</ul>
 		<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
@@ -296,7 +312,7 @@
       <div class="swiper-container mt-50">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="pricing-box pricing-box-bg text-left wow fadeInLeft" data-wow-delay="0.1s">
+            <div class="pricing-box pricing-box-bg text-left wow fadeInLeft" data-wow-delay="0.1s"  style="background-image: url('assets/images/cards.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
               <div class="plan-name">
                 <h3>Computer Science</h3>
               </div> 
@@ -312,7 +328,7 @@
           </div>
       
           <div class="swiper-slide">
-            <div class="pricing-box pricing-box-bg text-left"> <!-- add featured to make the card blue -->
+            <div class="pricing-box pricing-box-bg text-left"  style="background-image: url('assets/images/cards.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"> <!-- add featured to make the card blue -->
               <div class="plan-name">
                 <h3>Electronics & Communication</h3>
               </div> 
@@ -327,7 +343,7 @@
           </div>
       
           <div class="swiper-slide">
-            <div class="pricing-box pricing-box-bg text-left wow fadeInRight" data-wow-delay="0.2s">
+            <div class="pricing-box pricing-box-bg text-left wow fadeInRight" data-wow-delay="0.2s"  style="background-image: url('assets/images/cards.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
               <div class="plan-name">
                 <h3>Mechanical Engineering</h3>
               </div>
@@ -343,9 +359,9 @@
       
           <!-- Card 4 -->
           <div class="swiper-slide">
-            <div class="pricing-box pricing-box-bg text-left">
+            <div class="pricing-box pricing-box-bg text-left"  style="background-image: url('assets/images/cards.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
               <div class="plan-name">
-                <h3>For Supply Chain</h3>
+                <h3>Supply Chain</h3>
               </div>
               <ul>
                 <li>The Supply Maze</li>
@@ -358,7 +374,7 @@
       
           <!-- Card 5 -->
           <div class="swiper-slide">
-            <div class="pricing-box pricing-box-bg text-left">
+            <div class="pricing-box pricing-box-bg text-left"  style="background-image: url('assets/images/cards.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
               <div class="plan-name">
                 <h3>Working Capital</h3>
               </div>
@@ -490,6 +506,7 @@
             <div class="mission-section xs-mb-80">
               <div class="section-title">
                 <h4 class="default-color">Our Mission</h4> 
+                <h1>About Us</h1>
               </div>
               <p>
                 At Aimverse.ai, we believe learning shouldn’t be passive — it should be a game. We’re building an intelligent gaming ecosystem where students don’t just memorize concepts, they experience them. Our games are powered by real-world problem-solving, data interpretation, logic-based missions, and reward-based progression systems.
@@ -797,8 +814,12 @@
                 <i class="icofont icofont-google-map font-30px white-color"></i>
               </div>
               <h3 class="mt-0">Our Office</h3>
-              <div class="dis">
-                Address
+              <div class="dis"> 
+                India <br>
+                No.470, Vanjiamman Building, 1st Floor, Avinashi Road, Peelamedu - Coimbatore - 641004 <br><br>
+
+                Dubai <br>
+                Meydan Grandstand, 6th floor, Meydan Road, Nad Al Sheba, Dubai, U.A.E. <br>
               </div>
             </div>
             <div class="icon-text feature-box-2 mb-30 clearfix">
@@ -807,7 +828,7 @@
               </div>
               <h3 class="mt-0">Call Us</h3>
               <div class="dis">
-                +91 123-456-7890
+                +91 9875840128
               </div>
             </div>
             <div class="icon-text feature-box-2 mb-30 clearfix">
@@ -816,7 +837,7 @@
               </div>
               <h3 class="mt-0">Email Us</h3>
               <div class="dis">
-                <a href="mailto:envato.com">xyz@email.com</a>
+                <a href="mailto:envato.com">info@aimverseai.com</a>
               </div>
             </div>
           </div>
